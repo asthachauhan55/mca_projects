@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+
+int main() 
+{
+	
+    char s[100];
+    scanf("%[^\n]%*c", &s,s);
+    printf("Hello, World!\nWelcome to C programming.");
+    
+  	   
+    return 0;
+}
